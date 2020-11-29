@@ -1,0 +1,11 @@
+<launch>
+
+  	<node name="jetbot_next_goal" pkg="jetbot_test" type="jetbot_next_goal" output="screen"/>
+	<node name="bot_path" pkg="jetbot_test" type="bot_path" output="screen"/>
+	<!--<node name="controller_kanayama" pkg="jetbot_test" type="controller_kanayama" output="screen"/> -->
+	<node name="ref_path" pkg="jetbot_test" type="ref_path" output="screen"/>
+	<node name="controller_kay" pkg="jetbot_test" type="controller_kay.py" output="screen"/>
+
+</launch>
+
+
