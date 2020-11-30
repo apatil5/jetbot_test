@@ -61,7 +61,7 @@ int main(int argc, char **argv)
         ary_msg.data.push_back(v_ref);
         ary_msg.data.push_back(0);
 	
-	int cs = floor(count/330);
+	int cs = floor(count/500);
 	cs = (cs%4);
 	double l = 0.003;
 	switch(cs){
